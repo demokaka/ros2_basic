@@ -72,7 +72,7 @@ or
 ```
 sudo apt install tmux
 ```
-## Visual Studio Code
+## Visual Studio Code(recommmended)
 A very powerful and 'humble' IDE that is recommended to be used.  
 Some basic extensions to install in VSCode: 
 1. cmake
