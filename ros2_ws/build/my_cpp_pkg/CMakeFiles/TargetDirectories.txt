@@ -1,5 +1,6 @@
 /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/uninstall.dir
 /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
+/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/cpp_node_exec.dir
 /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
