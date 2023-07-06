@@ -1,7 +1,92 @@
 # Minimal code for creating a node in Python
+```
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+
+def main(args=None):
+    # Initialize the node
+    rclpy.init(args=args)
+
+    # Create the node
+    node = Node("py_test")
+
+    # Main execution
+
+
+    # Spinning 
+    rclpy.spin(node=node)
+
+    # Shutdown the node
+    rclpy.shutdown()
+
+if __name__=='__main__':
+    main()    
+```
 
 # Minimal code Python node with OOP
+```
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
 
+class MyNode(Node):
+    def __init__(self):
+        super().__init__(node_name="py_test")
+        self.get_logger().info(message="Hello from ROS2")
+
+def main(args=None):
+    # Initialize the node
+    rclpy.init(args=args)
+
+    # Create the node
+    node = MyNode()
+
+    # Spinning 
+    rclpy.spin(node=node)
+
+    # Shutdown the node
+    rclpy.shutdown()
+
+if __name__=='__main__':
+    main()
+```
+
+# Install the executable using colcon build
+First, do not forget to source the `setup.bash` file in the install folder of the workspace.  
+If not, there will be no executable at the output.
+```
+source PATH_TO_WORKSPACE/ros2_ws/install/local_setup.bash
+``` 
+Now, in the `setup.py`, in the `setup` part, the `'console_scripts'`, add this line:
+```
+"my_first_node_exec = my_py_pkg.my_first_node:main"
+```
+
+```
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='khanh',
+    maintainer_email='khanhdinhcong99@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            "my_first_node_exec = my_py_pkg.my_first_node:main"
+        ],
+    },
+)
+```
 # Python version problem
 We can run the Python script by command line
 ```

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "my_first_node_exec = my_py_pkg.my_first_node:main"
         ],
     },
 )
