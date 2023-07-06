@@ -37,5 +37,20 @@ If you want to create a `C++` package:
 ros2 pkg create package_name --build-type ament_cmake --dependencies rclcpp
 ```
 
+# Install package
+Either use
+```
+colcon build
+```
+to build/rebuild all the packages. Or we can specify the package to install:
+```
+colcon build --packages-select my_package_name
+```
+## Dynamic install
+As we debug our code, we don't want to reinstall again the package from the beginning. To save time, we add `--symlink-install` option to dynamically install the change that we make.
+```
+colcon build --packages-select my_package_name --symlink-install
+```
+
 
 
