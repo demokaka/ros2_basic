@@ -51,6 +51,26 @@ As we debug our code, we don't want to reinstall again the package from the begi
 ```
 colcon build --packages-select my_package_name --symlink-install
 ```
+## Notes on deprecation of the pip setup tool:
+As we build the program, maybe you will see this error message:
+![SetuptoolsDeprecationWarning](./images/colcon_build_deprecated_solved.png)  
 
-
+To solve this problem, we need to get the correct version of the pipsetuptools.  
+First, we need to see the version of the package using terminal:
+```
+pip3 list
+```
+![pip3list](images/pip3list.png)
+Or we can pass the result to search for the `setuptools`
+```
+pip3 list | grep setuptools
+```
+![version pip list](images/versionpiplist.png)
+As we can see, the version installed is `61.2.0`.  
+Now, we need to downgrade the version to the correct one which is `58.2.0` by reinstalling it:
+```
+pip install setuptools==58.2.0
+```
+If the warning message does not go away, this is nothing to worry as it is just a warning.   
+Recent version of ROS2 has some updates that cause this problem but it will, for sure, disappear in the future.
 
