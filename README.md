@@ -6,7 +6,7 @@ The version used in this project is ROS2 Humble. The installation follows the in
 
 ## Note
 This version is compatible with Ubuntu 22.04+.    
-For Ubuntu 20.04, you should install ROS2 Foxy. The installation is pretty much the same.
+For Ubuntu 20.04, you should install ROS2 Foxy. The installation is pretty much the same as Humble.  
 The older versions of Ubuntu will not be able to locate the package of ROS2. 
 
 
