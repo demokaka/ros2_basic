@@ -51,7 +51,7 @@ ROS2 is a collection of packages. It is recommended to install full desktop vers
 sudo apt install ros-humble-desktop
 ```
 ### Source the bash file
-If you open a new terminal and type in `ros2` command, this will not be found. To make this happen, you need to source the `setup.bash` file which is located at the folder `/opt/ros/humble`.  
+If you open a new terminal and type in `ros2` command, this will not be found. To make this happen, you need to source the `setup.bash` file which is located at the folder `/opt/ros/humble`(or `foxy` depend on the Ubuntu version).  
 First open the `.bashrc` using an editor(here I use gedit).
 ```
 cd
