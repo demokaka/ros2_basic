@@ -15,5 +15,10 @@ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 ```
 ## Setup Sources
-
+You will need to add the ROS 2 apt repository to your system.  
+First ensure that the [Ubuntu Universe repository](https://help.ubuntu.com/community/Repositories/Ubuntu) is enabled.    
+```
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
 ## Install ROS 2 packages
