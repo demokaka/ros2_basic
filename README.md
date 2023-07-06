@@ -50,6 +50,17 @@ ROS2 is a collection of packages. It is recommended to install full desktop vers
 ```
 sudo apt install ros-humble-desktop
 ```
+### Source the bash file
+If you open a new terminal and type in `ros2` command, this will not be found. To make this happen, you need to source the `setup.bash` file which is located at the folder `/opt/ros/humble`.  
+First open the `.bashrc` using an editor(here I use gedit).
+```
+cd
+gedit .bashrc
+``` 
+Then add at the end of file this line
+```
+source /opt/ros/humble/setup.bash
+``` 
 
 # Basic programming tools go with ROS2
 ## Terminator/Tmux(optional)
@@ -62,7 +73,7 @@ or
 sudo apt install tmux
 ```
 ## Visual Studio Code
-A very powerful and 'humble' IDE that is recommended to used.  
+A very powerful and 'humble' IDE that is recommended to be used.  
 Some basic extensions to install in VSCode: 
 1. cmake
 1. C/C++
