@@ -52,7 +52,7 @@ As we debug our code, we don't want to reinstall again the package from the begi
 colcon build --packages-select my_package_name --symlink-install
 ```
 ## Notes on deprecation of the pip setup tool:
-As we build the program, maybe you will see this error message:
+As we build the program, maybe you will see this warning message:
 ![SetuptoolsDeprecationWarning](./images/colcon_build_deprecated_solved.png)  
 
 To solve this problem, we need to get the correct version of the pipsetuptools.  
