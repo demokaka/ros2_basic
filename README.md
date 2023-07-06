@@ -3,7 +3,7 @@ Learning ROS2 basics for beginners
 
 # ROS2 installation
 The version used in this project is ROS2 Humble. The installation follows the instruction at the [ROS2 Humble installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) home page.
-
+![Ros2 Humble](images/humble-small.png)
 ## Note
 This version is compatible with Ubuntu 22.04+.    
 For Ubuntu 20.04, you should install ROS2 Foxy. The installation is pretty much the same as Humble.  
@@ -72,6 +72,9 @@ or
 ```
 sudo apt install tmux
 ```
+<!-- ![Terminator](images/Gnome-Terminator.svg.png | width=100) -->
+<img src="images/Gnome-Terminator.svg.png" width="100" height="100">
+
 ## Visual Studio Code(recommmended)
 A very powerful and 'humble' IDE that is recommended to be used.  
 Some basic extensions to install in VSCode: 
