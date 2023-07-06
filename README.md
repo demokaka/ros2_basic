@@ -50,3 +50,12 @@ ROS2 is a collection of packages. It is recommended to install full desktop vers
 ```
 sudo apt install ros-humble-desktop
 ```
+
+# Basic programming tools go with ROS2
+## Terminator/(optional)
+## Visual Studio Code
+A very powerful and 'humble' IDE.  
+Some basic extensions to install: 
+1. cmake
+1. C/C++
+1. Python
