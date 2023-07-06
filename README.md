@@ -4,6 +4,12 @@ Learning ROS2 basics for beginners
 # ROS2 installation
 The version used in this project is ROS2 Humble. The installation follows the instruction at the [ROS2 Humble installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) home page.
 
+## Note
+This version is compatible with Ubuntu 22.04+.    
+For Ubuntu 20.04, you should install ROS2 Foxy. The installation is pretty much the same.
+The older versions of Ubuntu will not be able to locate the package of ROS2. 
+
+
 ## Set locale
 First run 
 `locale` 
@@ -30,4 +36,17 @@ Then add the repository to your sources list.
 ```
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
+
 ## Install ROS 2 packages
+Update your apt repository caches after setting up the repositories.
+```
+sudo apt update
+```
+Then you need to upgrade
+```
+sudo apt upgrade
+```
+ROS2 is a collection of packages. It is recommended to install full desktop version instead of barebone version
+```
+sudo apt install ros-humble-desktop
+```
