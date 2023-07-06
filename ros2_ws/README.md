@@ -34,7 +34,7 @@ ros2 pkg create package_name --build-type ament_python --dependencies rclpy
 ```
 If you want to create a `C++` package:
 ```
-ros2 pkg create package_name --build-type ament_cpp --dependencies rclcpp
+ros2 pkg create package_name --build-type ament_cmake --dependencies rclcpp
 ```
 
 
