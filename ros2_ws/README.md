@@ -11,7 +11,7 @@ mkdir src
 For the first time, run `colcon build`. This will generate some folders `build`, `install` and `log` in the workspace.  
 
 Imagine when we created a program in our workspace and we want to run this anywhere that we want.  
-In this case, we need to source the `local_steup.bash` or `setup.bash` file in the `install` folder so that it can be located.  
+In this case, we need to source the `local_setup.bash` or `setup.bash` file in the `install` folder so that it can be located.  
 Open the `.bashrc` file:
 ```
 cd
