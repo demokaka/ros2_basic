@@ -67,3 +67,26 @@ Some basic extensions to install in VSCode:
 1. cmake
 1. C/C++
 1. Python
+
+## Necessary Tools
+pip:
+```
+sudo apt install python3-pip
+```
+### ROS2 build tool: Colcon
+To install:
+```
+sudo apt install python3-colcon-common-extensions
+```
+Now, the `colcon` is installed in the folder `/usr/share/`.  
+You will need to source the `colcon_argcomplete.bash` file in the folder `/usr/share/colcon_argcomplete/hook` for autocompletion.  
+First open the `.bashrc` using an editor(here I use gedit).
+```
+cd
+gedit .bashrc
+``` 
+Then add at the end of file this line
+```
+source /usr/share/colcon_argcomplete/hook/colcon_argcomplete.bash
+```
+So from now on, everytime you call the function colcon, the system will recognize it and you can have autocompletion functionality.
