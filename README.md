@@ -52,10 +52,18 @@ sudo apt install ros-humble-desktop
 ```
 
 # Basic programming tools go with ROS2
-## Terminator/(optional)
+## Terminator/Tmux(optional)
+To install
+```
+sudo apt install terminator
+```
+or 
+```
+sudo apt install tmux
+```
 ## Visual Studio Code
-A very powerful and 'humble' IDE.  
-Some basic extensions to install: 
+A very powerful and 'humble' IDE that is recommended to used.  
+Some basic extensions to install in VSCode: 
 1. cmake
 1. C/C++
 1. Python
