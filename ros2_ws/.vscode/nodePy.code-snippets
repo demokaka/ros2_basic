@@ -1,0 +1,38 @@
+{
+	// Place your ros2_ws workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"nodeT": {
+		"scope": "python",
+		"prefix": "nodeT",
+		"body": [
+
+			"#!/usr/bin/env python3",
+			"import rclpy",
+			"from rclpy.node import Node",
+			"\n\n", 
+			 
+			"class ${1:MyCustomNode}(Node): # MODIFY NAME",
+				"\tdef __init__(self):",
+					"\t\tsuper().__init__(\"${2:node_name}\") # MODIFY NAME",
+			"\n", 
+			 
+			"def main(args=None):",
+				"\trclpy.init(args=args)",
+				"\tnode = ${1:MyCustomNode}() # MODIFY NAME",
+				"\trclpy.spin(node)",
+				"\trclpy.shutdown()",
+			"\n", 
+			 
+			"if __name__ == \"__main__\":",
+				"\tmain()",
+
+			
+		],
+		"description": "Minimal OOP Python Node"
+	}
+}

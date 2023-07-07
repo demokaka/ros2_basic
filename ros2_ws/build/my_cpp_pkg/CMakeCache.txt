@@ -397,6 +397,9 @@ pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 //Path to a library.
 pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
+//The directory containing a CMake configuration file for randomquotes.
+randomquotes_DIR:PATH=randomquotes_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
 

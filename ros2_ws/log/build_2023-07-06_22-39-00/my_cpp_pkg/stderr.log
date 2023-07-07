@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/cpp_node_exec.dir/src/randomquotes.cpp.o: in function `getRandomQuote()':
+randomquotes.cpp:(.text+0x6b): undefined reference to `curl_easy_init'
+/usr/bin/ld: randomquotes.cpp:(.text+0x9f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: randomquotes.cpp:(.text+0xc8): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: randomquotes.cpp:(.text+0xe2): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: randomquotes.cpp:(.text+0xee): undefined reference to `curl_easy_perform'
+/usr/bin/ld: randomquotes.cpp:(.text+0x137): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: randomquotes.cpp:(.text+0x160): undefined reference to `curl_easy_cleanup'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cpp_node_exec.dir/build.make:167: cpp_node_exec] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_exec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

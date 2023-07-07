@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_exec.dir/src/my_first_node.cpp.o[0m
+[2.492s] [100%] [32m[1mLinking CXX executable cpp_node_exec[0m
+[2.623s] /usr/bin/ld: CMakeFiles/cpp_node_exec.dir/src/my_first_node.cpp.o: in function `MyNode::timer_callback()':
+[2.623s] my_first_node.cpp:(.text._ZN6MyNode14timer_callbackEv[_ZN6MyNode14timer_callbackEv]+0x29): undefined reference to `getRandomQuote()'
+[2.636s] collect2: error: ld returned 1 exit status
+[2.639s] gmake[2]: *** [CMakeFiles/cpp_node_exec.dir/build.make:151: cpp_node_exec] Error 1
+[2.639s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_exec.dir/all] Error 2
+[2.639s] gmake: *** [Makefile:146: all] Error 2
+[2.644s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12

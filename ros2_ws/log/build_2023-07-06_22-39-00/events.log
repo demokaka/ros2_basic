@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000612] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000665] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.009225] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.010114] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.010212] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'khanh'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khanh'), ('OLDPWD', '/home/khanh/Documents/ros2_basic/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '2356'), ('SYSTEMD_EXEC_PID', '2739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4012'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/khanh/Documents/ros2_basic/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'khanh'), ('JOURNAL_STREAM', '8:33293'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khanh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/bin/python3:/home/khanh/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khanh-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/2550,unix/khanh-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/2550'), ('INVOCATION_ID', 'a9e97cc22cd844618bdaffd287511b00'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PINO71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8fed75d9-c0a6-4169-9851-488bd1f2358b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.033213] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099039] (-) TimerEvent: {}
+[0.199455] (-) TimerEvent: {}
+[0.199824] (my_cpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.214397] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.278227] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.280223] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.285067] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.294228] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299580] (-) TimerEvent: {}
+[0.307201] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.356618] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.357465] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399731] (-) TimerEvent: {}
+[0.460427] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499918] (-) TimerEvent: {}
+[0.600348] (-) TimerEvent: {}
+[0.610521] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700504] (-) TimerEvent: {}
+[0.701404] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.701657] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.701814] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.702099] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.702904] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.703121] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.703434] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.704854] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.716727] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.717991] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg\n'}
+[0.746602] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node_exec\x1b[0m\n'}
+[0.763413] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node_exec.dir/src/randomquotes.cpp.o\x1b[0m\n'}
+[0.800663] (-) TimerEvent: {}
+[0.901130] (-) TimerEvent: {}
+[0.999232] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable cpp_node_exec\x1b[0m\n'}
+[1.001260] (-) TimerEvent: {}
+[1.101671] (-) TimerEvent: {}
+[1.133166] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/cpp_node_exec.dir/src/randomquotes.cpp.o: in function `getRandomQuote()':\n"}
+[1.133499] (my_cpp_pkg) StderrLine: {'line': b"randomquotes.cpp:(.text+0x6b): undefined reference to `curl_easy_init'\n"}
+[1.133655] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0x9f): undefined reference to `curl_easy_setopt'\n"}
+[1.133796] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0xc8): undefined reference to `curl_easy_setopt'\n"}
+[1.133933] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0xe2): undefined reference to `curl_easy_setopt'\n"}
+[1.134068] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0xee): undefined reference to `curl_easy_perform'\n"}
+[1.134207] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0x137): undefined reference to `curl_easy_strerror'\n"}
+[1.134342] (my_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: randomquotes.cpp:(.text+0x160): undefined reference to `curl_easy_cleanup'\n"}
+[1.139161] (my_cpp_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.141758] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node_exec.dir/build.make:167: cpp_node_exec] Error 1\n'}
+[1.142088] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_exec.dir/all] Error 2\n'}
+[1.142504] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.145796] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[1.205081] (-) TimerEvent: {}
+[1.213495] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[1.224357] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_exec[0m
+[0.102s] [ 33%] [32mBuilding CXX object CMakeFiles/cpp_node_exec.dir/src/my_first_node.cpp.o[0m
+[2.541s] [ 66%] [32m[1mLinking CXX executable cpp_node_exec[0m
+[2.671s] /usr/bin/ld: CMakeFiles/cpp_node_exec.dir/src/randomquotes.cpp.o: in function `getRandomQuote()':
+[2.672s] randomquotes.cpp:(.text+0x6b): undefined reference to `curl_easy_init'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0x9f): undefined reference to `curl_easy_setopt'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0xc8): undefined reference to `curl_easy_setopt'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0xe2): undefined reference to `curl_easy_setopt'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0xee): undefined reference to `curl_easy_perform'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0x137): undefined reference to `curl_easy_strerror'
+[2.672s] /usr/bin/ld: randomquotes.cpp:(.text+0x160): undefined reference to `curl_easy_cleanup'
+[2.678s] collect2: error: ld returned 1 exit status
+[2.680s] gmake[2]: *** [CMakeFiles/cpp_node_exec.dir/build.make:167: cpp_node_exec] Error 1
+[2.680s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_exec.dir/all] Error 2
+[2.681s] gmake: *** [Makefile:146: all] Error 2
+[2.683s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12

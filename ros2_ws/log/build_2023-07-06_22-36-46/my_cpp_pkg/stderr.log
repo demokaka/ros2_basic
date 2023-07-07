@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/cpp_node_exec.dir/src/my_first_node.cpp.o: in function `MyNode::timer_callback()':
+my_first_node.cpp:(.text._ZN6MyNode14timer_callbackEv[_ZN6MyNode14timer_callbackEv]+0x29): undefined reference to `getRandomQuote()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cpp_node_exec.dir/build.make:151: cpp_node_exec] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_exec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

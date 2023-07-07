@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_exec[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_exec.dir/src/my_first_node.cpp.o[0m
+[2.479s] [100%] [32m[1mLinking CXX executable cpp_node_exec[0m
+[2.626s] [100%] Built target cpp_node_exec
+[2.645s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[2.693s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg
+[2.704s] -- Install configuration: ""
+[2.705s] -- Execute custom install script
+[2.706s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_exec
+[2.706s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.707s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.707s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.707s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.708s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.708s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.708s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.708s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.709s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.709s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.709s] -- Symlinking: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.717s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.718s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.718s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.718s] -- Up-to-date symlink: /home/khanh/Documents/ros2_basic/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.722s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg

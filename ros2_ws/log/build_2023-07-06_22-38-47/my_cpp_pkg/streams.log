@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.034s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.229s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.265s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.268s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.275s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.368s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.660s] -- Configuring incomplete, errors occurred!
+[0.660s] See also "/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.660s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.660s]   By not providing "Findrandomquotes.cmake" in CMAKE_MODULE_PATH this project
+[0.661s]   has asked CMake to find a package configuration file provided by
+[0.661s]   "randomquotes", but CMake did not find one.
+[0.661s] 
+[0.661s]   Could not find a package configuration file provided by "randomquotes" with
+[0.661s]   any of the following names:
+[0.661s] 
+[0.661s]     randomquotesConfig.cmake
+[0.661s]     randomquotes-config.cmake
+[0.661s] 
+[0.661s]   Add the installation prefix of "randomquotes" to CMAKE_PREFIX_PATH or set
+[0.661s]   "randomquotes_DIR" to a directory containing one of the above files.  If
+[0.662s]   "randomquotes" provides a separate development package or SDK, be sure it
+[0.662s]   has been installed.
+[0.662s] 
+[0.662s] [0m
+[0.667s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.669s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/ros2_basic/ros2_ws/build/my_cpp_pkg -- -j12 -l12
