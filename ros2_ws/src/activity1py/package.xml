@@ -1,15 +1,13 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_py_pkg</name>
+  <name>activity1py</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="khanhdinhcong99@gmail.com">khanh</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
-  <depend>sys</depend>
-  <depend>randomquotes</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -152,3 +152,13 @@ Now, you can activate the Python 3.10 virtual environment by simply running the 
 ```
 activate_python3.10
 ```
+
+# Changing the arguments of ROS2 node using command line
+If you want to change the name of the node, add the options `--ros-args --remap` when running
+```
+ros2 run my_py_pkg my_first_node_exec --ros-args --remap __node:=abc
+```
+Also you can change the other attributes/parameters using the same options
+```
+ros2 run my_py_pkg my_first_node_exec --ros-args --remap name_of_parameter:=new_name_of_parameter
+```

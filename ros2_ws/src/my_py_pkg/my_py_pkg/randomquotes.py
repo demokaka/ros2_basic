@@ -15,5 +15,3 @@ def randomquotes():
     # Print the random quote
     res_quote = f"{quote} - {author}"
     return res_quote
-
-print(randomquotes())

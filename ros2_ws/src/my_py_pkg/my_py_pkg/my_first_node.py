@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-import sys
+import random
 
-sys.path.append("~/Documents/ros2_basic/ros2_ws/src/my_py_pkg/my_py_pkg")
-import randomquotes as rqus
+# import sys
+
+
+# sys.path.append("~/Documents/ros2_basic/ros2_ws/src/my_py_pkg/my_py_pkg")
+# import randomquotes as rqus
 
 class MyNode(Node):
     def __init__(self):
@@ -15,7 +18,8 @@ class MyNode(Node):
         self.create_timer(2.0, callback=self.timer_callback)
 
     def timer_callback(self):
-        self.get_logger().info(message=rqus.randomquotes())
+        # self.get_logger().info(message=rqus.randomquotes())
+        self.get_logger().info(message=str(random.random()))
 
 def main(args=None):
     # Initialize the node

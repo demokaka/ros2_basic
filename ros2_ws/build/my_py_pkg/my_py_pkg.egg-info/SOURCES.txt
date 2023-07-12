@@ -11,6 +11,7 @@ setup.py
 my_py_pkg/__init__.py
 my_py_pkg/my_first_node.py
 my_py_pkg/randomquotes.py
+my_py_pkg/test_snippet.py
 my_py_pkg.egg-info/PKG-INFO
 my_py_pkg.egg-info/SOURCES.txt
 my_py_pkg.egg-info/dependency_links.txt

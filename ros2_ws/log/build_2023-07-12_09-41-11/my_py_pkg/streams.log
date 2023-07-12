@@ -1,0 +1,26 @@
+[0.466s] Invoking command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg/prefix_override:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.696s] running develop
+[0.697s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.697s]   warnings.warn(
+[0.697s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.697s]   warnings.warn(
+[0.737s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.738s]   warnings.warn(
+[0.738s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.738s]   warnings.warn(
+[0.809s] running egg_info
+[0.809s] writing my_py_pkg.egg-info/PKG-INFO
+[0.810s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.810s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.810s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.810s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.811s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.812s] running build_ext
+[0.813s] Creating /home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.813s] Installing my_first_node_exec script to /home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.813s] 
+[0.813s] Installed /home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg
+[0.814s] running install_data
+[0.814s] copying package.xml -> /home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.851s] Invoked command in '/home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg/prefix_override:/home/khanh/Documents/ros2_basic/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/khanh/Documents/ros2_basic/ros2_ws/build/my_py_pkg/build --no-deps install_data
